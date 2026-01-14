@@ -21,9 +21,9 @@ const Hero = () => {
               Yeni Özellikler Yayında
             </span>
           </div>
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-3xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             Dijital Menü Deneyimini
-            <span className="block text-5xl leading-16">
+            <span className="block text-2xl sm:text-5xl leading-16">
               Yeniden Tanımlayın
             </span>
           </h1>
@@ -40,7 +40,7 @@ const Hero = () => {
               Demo İzle
             </button>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12 max-sm:[&_div]:mx-auto">
             <div className="flex items-center gap-3 text-white/90">
               <div className="p-2 bg-white/10 backdrop-blur-sm rounded-lg">
                 <Star className="w-5 h-5 text-yellow-400" />
